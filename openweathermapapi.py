@@ -49,4 +49,4 @@ def todb():
     return currentWeather
 if __name__ == "__main__":
     #Application runs on port 6000
-    app.run(host="0.0.0.0", port='2000', debug=1)
+    app.run(host="0.0.0.0", port='5000', debug=1)
