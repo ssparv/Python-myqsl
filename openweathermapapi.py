@@ -39,7 +39,7 @@ def todb():
     weatherReport = {key: weatherReport[0].get(key) for key in key2}
     #print(weatherReport)
     #Connect to MySQL DB (Not tested, May have errors!)
-    conn = pymysql.connect(database="WeatherDB",user="admin",password="password",host="localhost")
+    conn = pymysql.connect(database="WeatherDB",user="parvathy",password="assignment3",host="localhost")
     cur=conn.cursor()
     #Table 1 shows realtime weather
     cur.execute("INSERT INTO currentWeatherTable (clouds, dew_point, dt, feels_like, humidity, temp ) VALUES (%(clouds)s, %(dew_point)s, %(dt)s, %(feels_like)s, %(humidity)s, %(temp)s )",currentWeather)
