@@ -6,7 +6,7 @@ import pymysql
 import requests
 #Read OpenWeatherMap API usage here - https://openweathermap.org/api/one-call-api
 #Insert your OpenWeatherMap API here
-OPEN_WEATHER_MAP_API_KEY = "725c333a25aff972c5d64b34616da787"
+OPEN_WEATHER_MAP_API_KEY = "34b98784718956f97874529f33337b76"
 #give your Lattitude and Longitude
 lat = '9.557270'
 lon = '76.789436'
